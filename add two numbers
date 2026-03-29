@@ -1,0 +1,8 @@
+a=7
+b=63
+sum=a+b
+print("sum is:",sum)
+
+
+output:
+sum is: 70
