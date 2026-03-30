@@ -1,0 +1,10 @@
+numbers=[10,20,30,40,59]
+num=int(input ())
+if num in numbers:
+    print("Yes")
+else:
+    print("No")
+
+Output:
+7
+No
