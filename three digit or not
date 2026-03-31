@@ -1,0 +1,10 @@
+num=int(input())
+if num>99 and num<1000:
+    print("Number is three digit")
+else:
+    print("Number is not three digit")
+
+        
+OUTPUT:
+456
+Number is three digit
