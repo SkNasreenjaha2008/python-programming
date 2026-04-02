@@ -1,0 +1,25 @@
+n=int(input())
+temp=n
+rev=0
+while n>0:
+    rev=rev*10+n%10
+    n=n//10
+if(temp==rev):
+    print("palidrome")
+else:
+    print("Not palidrome")
+n=temp
+while n>=10:
+    s=0
+    while n>0:
+        s+=n%10
+        n=n//10
+    n=s
+print("Single digit after repeated sum :",n)        
+
+
+OUTPUT:
+ 
+1987
+Not palidrome
+Single digit after repeated sum : 7
