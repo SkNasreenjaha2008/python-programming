@@ -1,0 +1,16 @@
+n=int(input())
+sum=0
+while n>0:
+    r=n%10
+    sum=sum+r
+    n=n//10
+print(sum)
+if sum>=0 and sum<10:
+    print("single digit")
+else:
+    print("Not single digit")
+
+OUTPUT:
+123
+6
+single digit
