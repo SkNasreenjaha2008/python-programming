@@ -1,0 +1,18 @@
+total = 0
+
+while True:
+    num = int(input("Enter a number: "))
+    
+    if num < 0:
+        break
+    
+    total += num
+
+print("Sum =", total)
+
+
+OUTPUT:
+Enter a number: 456
+Enter a number: 67
+Enter a number: -6
+Sum = 523
