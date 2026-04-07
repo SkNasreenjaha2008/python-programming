@@ -1,0 +1,15 @@
+import time
+sentence = "python is easy"
+print("Type this:", sentence)
+start =time.time()
+typed = input()
+end = time.time()
+time_taken = end - start
+print("Time taken:", round(time_taken,2),"seconds")
+
+
+
+OUTPUT:
+Type this: python is easy
+python is easy
+Time taken: 7.07 seconds
