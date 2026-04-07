@@ -1,0 +1,14 @@
+answer = input("Did you complete your homework?(yes/no):").lower()
+if answer == "yes":
+    print("Hmm... analyzing")
+    print("Result:You might be lying")
+else:
+    print("Good, at least you're honest")
+
+
+
+    OUTPUT:
+Did you complete your homework?(yes/no):yes
+Hmm... analyzing
+Result:You might be lying
+
